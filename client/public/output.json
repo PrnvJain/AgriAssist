@@ -1,0 +1,553 @@
+{
+    "vegetationData": [
+        {
+            "data": [
+                {
+                    "interval": {
+                        "from": "2023-01-01T00:00:00Z",
+                        "to": "2023-02-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.04878048598766327,
+                                        "max": 0.14917127788066864,
+                                        "mean": 0.05704053056514026,
+                                        "stDev": 0.06108154645836907,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": 0.2348703145980835,
+                                        "max": 0.44352617859840393,
+                                        "mean": 0.3555267432848227,
+                                        "stDev": 0.0507900142639116,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-02-01T00:00:00Z",
+                        "to": "2023-03-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.1928725242614746,
+                                        "max": 0.03621438890695572,
+                                        "mean": -0.09859310932097642,
+                                        "stDev": 0.05947730590943115,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": 0.25070422887802124,
+                                        "max": 0.6230747699737549,
+                                        "mean": 0.5079707384948936,
+                                        "stDev": 0.10267549372876876,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-03-01T00:00:00Z",
+                        "to": "2023-04-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.29852476716041565,
+                                        "max": 0.022785458713769913,
+                                        "mean": -0.22080373431869144,
+                                        "stDev": 0.07091425574826037,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": 0.5136218070983887,
+                                        "max": 0.8862337470054626,
+                                        "mean": 0.7781823991170932,
+                                        "stDev": 0.1027428199388937,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-04-01T00:00:00Z",
+                        "to": "2023-05-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.22207215428352356,
+                                        "max": -0.11498729884624481,
+                                        "mean": -0.14601336639730278,
+                                        "stDev": 0.02182725015793497,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": 0.12150706350803375,
+                                        "max": 0.3193379044532776,
+                                        "mean": 0.1709552894190053,
+                                        "stDev": 0.03741474059192415,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-05-01T00:00:00Z",
+                        "to": "2023-06-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.2435692697763443,
+                                        "max": 0.056971512734889984,
+                                        "mean": -0.1452772528824328,
+                                        "stDev": 0.06226754462663981,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": 0.4057476818561554,
+                                        "max": 0.8078857064247131,
+                                        "mean": 0.7168051767082905,
+                                        "stDev": 0.10104216843558161,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-06-01T00:00:00Z",
+                        "to": "2023-07-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.09877316653728485,
+                                        "max": -0.08602389693260193,
+                                        "mean": -0.09251920227706971,
+                                        "stDev": 0.0028985632821170518,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": 0.0,
+                                        "max": 0.009284543804824352,
+                                        "mean": 0.006188506799147296,
+                                        "stDev": 0.0018243710871000821,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-07-01T00:00:00Z",
+                        "to": "2023-08-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.08939061313867569,
+                                        "max": -0.08235126733779907,
+                                        "mean": -0.0856676014812121,
+                                        "stDev": 0.001738309536647355,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": 0.014492753893136978,
+                                        "max": 0.02741852030158043,
+                                        "mean": 0.021190171085456583,
+                                        "stDev": 0.0027868700836406754,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-08-01T00:00:00Z",
+                        "to": "2023-09-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.17678028345108032,
+                                        "max": -0.15336520969867706,
+                                        "mean": -0.16244783251385841,
+                                        "stDev": 0.006224647428007779,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": -0.022044088691473007,
+                                        "max": -0.008801625110208988,
+                                        "mean": -0.017041551612103988,
+                                        "stDev": 0.003222472294293567,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-09-01T00:00:00Z",
+                        "to": "2023-10-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.06746454536914825,
+                                        "max": 0.022111840546131134,
+                                        "mean": -0.0120509062959665,
+                                        "stDev": 0.022533194669851056,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": -0.02975338138639927,
+                                        "max": 0.11322356015443802,
+                                        "mean": 0.03465344261904655,
+                                        "stDev": 0.029814376148081603,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-10-01T00:00:00Z",
+                        "to": "2023-11-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.2466912567615509,
+                                        "max": 0.05482647940516472,
+                                        "mean": -0.1438329464838395,
+                                        "stDev": 0.05681553863037341,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": 0.483676552772522,
+                                        "max": 0.7956656217575073,
+                                        "mean": 0.7223599879924675,
+                                        "stDev": 0.0799236696147768,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "interval": {
+                        "from": "2023-11-01T00:00:00Z",
+                        "to": "2023-12-01T00:00:00Z"
+                    },
+                    "outputs": {
+                        "bsi": {
+                            "bands": {
+                                "BSI": {
+                                    "stats": {
+                                        "min": -0.27982085943222046,
+                                        "max": -0.08268824964761734,
+                                        "mean": -0.15775992331947256,
+                                        "stDev": 0.04421111128987014,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        },
+                        "ndvi": {
+                            "bands": {
+                                "NDVI": {
+                                    "stats": {
+                                        "min": 0.0559556782245636,
+                                        "max": 0.23593439161777496,
+                                        "mean": 0.12831507466189077,
+                                        "stDev": 0.05248597175049805,
+                                        "sampleCount": 316293,
+                                        "noDataCount": 80810
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "status": "OK"
+        }
+    ],
+    "processedData": {
+        "ndvi_analysis": [
+            {
+                "interval": "2023-01-01T00:00:00Z",
+                "mean_ndvi": 0.3555267432848227,
+                "ndvi_score": "medium vegetation",
+                "ndvi_trend": "N/A"
+            },
+            {
+                "interval": "2023-02-01T00:00:00Z",
+                "mean_ndvi": 0.5079707384948936,
+                "ndvi_score": "good vegetation",
+                "ndvi_trend": "Increased"
+            },
+            {
+                "interval": "2023-03-01T00:00:00Z",
+                "mean_ndvi": 0.7781823991170932,
+                "ndvi_score": "very good vegetation",
+                "ndvi_trend": "Increased"
+            },
+            {
+                "interval": "2023-04-01T00:00:00Z",
+                "mean_ndvi": 0.1709552894190053,
+                "ndvi_score": "low to average vegetation",
+                "ndvi_trend": "Decreased"
+            },
+            {
+                "interval": "2023-05-01T00:00:00Z",
+                "mean_ndvi": 0.7168051767082905,
+                "ndvi_score": "very good vegetation",
+                "ndvi_trend": "Increased"
+            },
+            {
+                "interval": "2023-06-01T00:00:00Z",
+                "mean_ndvi": 0.006188506799147296,
+                "ndvi_score": "low to average vegetation",
+                "ndvi_trend": "Decreased"
+            },
+            {
+                "interval": "2023-07-01T00:00:00Z",
+                "mean_ndvi": 0.021190171085456583,
+                "ndvi_score": "low to average vegetation",
+                "ndvi_trend": "Increased"
+            },
+            {
+                "interval": "2023-08-01T00:00:00Z",
+                "mean_ndvi": -0.017041551612103988,
+                "ndvi_score": "low to average vegetation",
+                "ndvi_trend": "Decreased"
+            },
+            {
+                "interval": "2023-09-01T00:00:00Z",
+                "mean_ndvi": 0.03465344261904655,
+                "ndvi_score": "low to average vegetation",
+                "ndvi_trend": "Increased"
+            },
+            {
+                "interval": "2023-10-01T00:00:00Z",
+                "mean_ndvi": 0.7223599879924675,
+                "ndvi_score": "very good vegetation",
+                "ndvi_trend": "Increased"
+            },
+            {
+                "interval": "2023-11-01T00:00:00Z",
+                "mean_ndvi": 0.12831507466189077,
+                "ndvi_score": "low to average vegetation",
+                "ndvi_trend": "Decreased"
+            }
+        ],
+        "bsi_analysis": [
+            {
+                "interval": "2023-01-01T00:00:00Z",
+                "mean_bsi": 0.05704053056514026,
+                "bsi_score": "bare soil",
+                "bsi_trend": "N/A"
+            },
+            {
+                "interval": "2023-02-01T00:00:00Z",
+                "mean_bsi": -0.09859310932097642,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Decreased"
+            },
+            {
+                "interval": "2023-03-01T00:00:00Z",
+                "mean_bsi": -0.22080373431869144,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Decreased"
+            },
+            {
+                "interval": "2023-04-01T00:00:00Z",
+                "mean_bsi": -0.14601336639730278,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Increased"
+            },
+            {
+                "interval": "2023-05-01T00:00:00Z",
+                "mean_bsi": -0.1452772528824328,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Increased"
+            },
+            {
+                "interval": "2023-06-01T00:00:00Z",
+                "mean_bsi": -0.09251920227706971,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Increased"
+            },
+            {
+                "interval": "2023-07-01T00:00:00Z",
+                "mean_bsi": -0.0856676014812121,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Increased"
+            },
+            {
+                "interval": "2023-08-01T00:00:00Z",
+                "mean_bsi": -0.16244783251385841,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Decreased"
+            },
+            {
+                "interval": "2023-09-01T00:00:00Z",
+                "mean_bsi": -0.0120509062959665,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Increased"
+            },
+            {
+                "interval": "2023-10-01T00:00:00Z",
+                "mean_bsi": -0.1438329464838395,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Decreased"
+            },
+            {
+                "interval": "2023-11-01T00:00:00Z",
+                "mean_bsi": -0.15775992331947256,
+                "bsi_score": "vegetated soil",
+                "bsi_trend": "Decreased"
+            }
+        ]
+    },
+    "analysisReport": [
+        true,
+        {
+            "interval": "2023-11-01T00:00:00Z",
+            "mean_ndvi": 0.12831507466189077,
+            "ndvi_score": "low to average vegetation",
+            "ndvi_trend": "Decreased"
+        }
+    ],
+    "graph_url": "/static\\ndvi_plot.png"
+}

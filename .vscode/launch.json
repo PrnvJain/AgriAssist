@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BhoomiApplication<bhoomi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.kletech.bhoomi.BhoomiApplication",
+            "projectName": "bhoomi",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

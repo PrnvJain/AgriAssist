@@ -1,0 +1,139 @@
+:root {
+    --primary-color: #add436; /* Light Green */
+    --secondary-color: #0D600D; /* Deep Green */
+    --background-color: #fbf3f3; /* Light Beige */
+    --button-hover-color: #92b62b; /* Slightly darker shade of primary */
+    --text-color: #333333; /* Neutral text color */
+  }
+  
+  .admin-panel-container {
+    padding: 2rem;
+    background: var(--background-color);
+    min-height: 100vh;
+    margin-left: 24rem; /* Adjust for sidebar alignment */
+  }
+  
+  .admin-panel-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  .table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table {
+    width: 100%;
+    background: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table th,
+  .table td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+  }
+
+  .table-row{
+    line-height: 0.8;
+  }
+  
+  .table th {
+    background: var(--primary-color);
+    color: white;
+  }
+  
+  .status-approved {
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+  
+  .status-rejected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .status-reverted {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .action-buttons button {
+    margin: 0.5rem;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .button-approve {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .button-approve:hover {
+    background-color: var(--button-hover-color);
+    transform: scale(1.05);
+  }
+  
+  .button-reject {
+    background-color: red;
+    color: white;
+  }
+  
+  .button-reject:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+  }
+  
+  .button-revert {
+    background-color: orange;
+    color: white;
+  }
+  
+  .button-revert:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+  }
+  
+  .no-data {
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: var(--background-color);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  

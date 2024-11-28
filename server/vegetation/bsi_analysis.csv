@@ -1,0 +1,12 @@
+interval,mean_bsi,bsi_score,bsi_trend
+2023-01-01T00:00:00Z,0.05704053056514026,bare soil,N/A
+2023-02-01T00:00:00Z,-0.09859310932097642,vegetated soil,Decreased
+2023-03-01T00:00:00Z,-0.22080373431869144,vegetated soil,Decreased
+2023-04-01T00:00:00Z,-0.14601336639730278,vegetated soil,Increased
+2023-05-01T00:00:00Z,-0.1452772528824328,vegetated soil,Increased
+2023-06-01T00:00:00Z,-0.09251920227706971,vegetated soil,Increased
+2023-07-01T00:00:00Z,-0.0856676014812121,vegetated soil,Increased
+2023-08-01T00:00:00Z,-0.16244783251385841,vegetated soil,Decreased
+2023-09-01T00:00:00Z,-0.0120509062959665,vegetated soil,Increased
+2023-10-01T00:00:00Z,-0.1438329464838395,vegetated soil,Decreased
+2023-11-01T00:00:00Z,-0.15775992331947256,vegetated soil,Decreased

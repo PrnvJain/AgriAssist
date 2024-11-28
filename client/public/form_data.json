@@ -1,0 +1,50 @@
+[
+    {
+        "fullName": "Priyanka Kurotsuchi",
+        "aadharNumber": "123456789",
+        "contactNumber": "123456789",
+        "address": "abc",
+        "village": "Haveli",
+        "landArea": "5",
+        "ownershipType": "owned",
+        "landUse": "agriculture",
+        "soilType": "Loamy",
+        "irrigation": "yes",
+        "cropTypes": "Sugarcane",
+        "averageYield": "50000",
+        "local_credit_score": 57,
+        "timestamp": "2024-11-22T08:46:18.343470"
+    },
+    {
+        "fullName": "Apoorva Holkar",
+        "aadharNumber": "3459634723",
+        "contactNumber": "7385955827",
+        "address": "Pune",
+        "village": "Purandar",
+        "landArea": "3",
+        "ownershipType": "owned",
+        "landUse": "agriculture",
+        "soilType": "Red",
+        "irrigation": "yes",
+        "cropTypes": "Sugarcane",
+        "averageYield": "15",
+        "local_credit_score": 6.0,
+        "timestamp": "2024-11-23T10:09:12.430102"
+    },
+    {
+        "fullName": "Apoorva Holkar",
+        "aadharNumber": "3459634723",
+        "contactNumber": "738595827",
+        "address": "Pune",
+        "village": "Purandar",
+        "landArea": "5",
+        "ownershipType": "owned",
+        "landUse": "agriculture",
+        "soilType": "Red",
+        "irrigation": "yes",
+        "cropTypes": "Sugarcane",
+        "averageYield": "56",
+        "local_credit_score": 6.0,
+        "timestamp": "2024-11-23T11:11:03.541459"
+    }
+]

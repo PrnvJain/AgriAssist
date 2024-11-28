@@ -1,0 +1,263 @@
+/* Main container */
+.main-container {
+  margin-left: 550px;
+  padding: 20px;
+  background-color: #f4f9f4; /* Soft green background */
+}
+
+/* Loan Section Styling */
+.loan-container {
+  padding: 30px;
+  background: linear-gradient(135deg, #ffffff, #f0f7f0); /* Subtle gradient */
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: auto;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+}
+
+.loan-container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #1b591c;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Card Layout */
+.loan-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Individual Card Styling */
+.card {
+  flex: 1 1 calc(30% - 20px);
+  max-width: 300px;
+  background: linear-gradient(135deg, #e9f7ea, #ffffff); /* Soft green gradient */
+  border: 1px solid #d6e9d8;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  color: #1b591c;
+  font-weight: bold;
+}
+
+.card p {
+  margin-bottom: 25px;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+/* Button Styling */
+.btn {
+  padding: 12px 18px;
+  background: linear-gradient(135deg, #28a745, #1b591c); /* Green gradient */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #1b591c, #146d26);
+  transform: scale(1.05);
+}
+
+/* Loan Status Card */
+.loan-status-card {
+  margin-top: 30px;
+  background: linear-gradient(135deg, #f0f7f0, #ffffff); /* Soft green gradient */
+  border: 1px solid #d6e9d8;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.loan-status-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.loan-status-card h3 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #1b591c;
+  font-weight: bold;
+}
+
+.loan-status-card p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  height: 20px;
+  width: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  background: linear-gradient(135deg, #28a745, #1b591c); /* Green gradient */
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.3s ease-in-out;
+}
+
+.progress-percentage {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for Status Button */
+.status-btn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Blue gradient */
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.status-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #003f7f);
+  transform: scale(1.05);
+}
+
+
+/* Form Container */
+.form-container {
+  width: 800px; /* Matches the width of the recommendation form */
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* Form Heading */
+.form-container h3 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Container */
+.input-container {
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.form-container label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 700px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+  border-color: #4caf50; /* Green focus border */
+}
+
+/* Submit Button */
+.form-container .btn {
+  background-color: rgb(13, 96, 13);
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+  margin-left: 150px;
+  border-radius: 5px;
+  padding: 10px 0;
+  width: 480px;
+  cursor: pointer;
+}
+
+.form-container .btn:hover {
+  opacity: 0.9;
+}
+
+/* Error Message Styling */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Clear Button */
+.form-container .clear-button {
+  background-color: #b8e62c; /* Medium Grey */
+  color: white; /* Dark Green */
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form-container .clear-button:hover {
+  opacity: 0.9;
+}
+
+/* Make the form scrollable */
+.scrollable-form {
+  max-height: 500px; /* Adjust the height as needed */
+  overflow-y: auto;
+  padding-right: 10px; /* Add padding for better usability */
+}
+
+/* Add styles for the scroll bar */
+.scrollable-form::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-form::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.scrollable-form::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+

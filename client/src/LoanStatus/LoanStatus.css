@@ -1,0 +1,90 @@
+:root {
+  --sidebar-color: #fbf3f3;
+  --primary-color: rgb(13, 96, 13);
+  --secondary-color: #f3f3f3;
+  --toggle-color: #DDDD;
+  --text-color: #707070;
+}
+
+h1{
+  color: #1b591c;
+  text-align: center;
+  font-size: x-large;
+}
+/* Button Styles */
+.gradient-button {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  transform: scale(1);
+}
+
+
+
+.gradient-button:hover {
+  background: linear-gradient(90deg, var(--primary-color) 20%, #1b5e20 80%);
+  color: var(--secondary-color);
+  transform: translateY(-2px) scale(1.03); /* Slight movement and zoom */
+}
+
+.search-button{
+  background: black;
+  color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  transform: scale(1);
+}
+
+.search-button:hover {
+  background: linear-gradient(90deg, black 20%, #1b5e20 80%);
+  color: var(--secondary-color);
+  transform: translateY(-2px) scale(1.03); /* Slight movement and zoom */
+}
+/* Card Styles */
+.bank-card {
+  margin-top: 20px;
+  left: 20px;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: #ffffff; /* Pure white background */
+  border: 1px solid #d1d5db; /* Light grey border */
+}
+
+.bank-card:hover {
+  transform: translateY(-5px) scale(1.02); /* Subtle zoom and upward movement */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow for better focus */
+}
+
+
+/* Image Styles */
+.bankimage-container {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bank-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color); /* Use primary color for better contrast */
+}
